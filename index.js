@@ -1,4 +1,4 @@
-function app_setup(PORT){
+function server(PORT){
     const express = require("express");
     
     const app = express();
@@ -7,7 +7,7 @@ function app_setup(PORT){
         res.send("It's working fine bro!...");
     });
     app.listen(PORT,()=>{
-        console.log("Your first express server running at port: ",PORT,"\nNavigate to : http://localhost:5000");
+        console.log("Your first express server running at port: ",PORT,`\nNavigate to : http://localhost:${PORT}`);
         
     })
 
@@ -15,4 +15,4 @@ function app_setup(PORT){
     
 }
 
-module.exports = app_setup;
+module.exports = server;
