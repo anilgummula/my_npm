@@ -1,0 +1,23 @@
+{
+  "name": "app_setup",
+  "version": "1.0.0",
+  "description": "This is a basic express app setup",
+  "homepage": "https://github.com/anilgummula/my_npm#readme",
+  "bugs": {
+    "url": "https://github.com/anilgummula/my_npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilgummula/my_npm.git"
+  },
+  "license": "ISC",
+  "author": "anil gummula",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
